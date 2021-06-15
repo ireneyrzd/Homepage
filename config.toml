@@ -25,7 +25,7 @@ theme = "hugo-initio"
     showClients = false
 
     showFooterContact = true
-    showFooterFollowMe = false
+    showFooterFollowMe = true
     showFooterTextWidget = false
     showFooterFormWidget = false
 
@@ -92,10 +92,10 @@ theme = "hugo-initio"
     network = "tumblr"
 [[params.social]]
 	title = "github"
-	url = "https://github.com/nickname"
+	url = "https://github.com/ireneyrzd"
     icon = "fab fa-github"
-    footer = false
-    sharethis = false
+    footer = true
+    sharethis = true
     network = ""
 [[params.social]]
 	title = "email"
