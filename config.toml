@@ -1,0 +1,106 @@
+baseURL = "https://ireneyrzd.github.io/"
+languageCode = "en"
+title = "Irene's Blog"
+theme = "hugo-initio"
+
+[params]
+    name = "Irene Wang"
+    description = "A mystery person"
+    email = "yiranirenewang@gmail.com"
+    phone = "..."
+    address = "..."
+    year = 2021
+    avatar = "images/IMG_5119.jpg"
+    avatarclass = "circle"
+    background = ""
+    banner = ""
+    favicon = "images/gt_favicon.png"
+    DateForm = "June 10, 2021"
+    author = "Irene Wang"
+
+    showSubheader = false
+    showServices = false
+    showRecentWorks = false
+    showDownloads = false
+    showClients = false
+
+    showFooterContact = true
+    showFooterFollowMe = false
+    showFooterTextWidget = false
+    showFooterFormWidget = false
+
+[[menu.main]]
+    name = "home"
+    url = "/"
+    weight = 1
+[[menu.main]]
+    name = "blog"
+    url = "/post/"
+    weight = 5
+
+[params.disqus]
+    site = "hugo-initio-site.disqus.com"
+
+[params.sharethis]
+    property = "123456789012345678901234"
+    custom = true
+
+[params.google.analytics]
+    trackerID = "GA-000000000-0"
+
+[[params.social]]
+	title = "facebook"
+	url = "https://www.facebook.com/nickname"
+    icon = "fab fa-facebook-square"
+    footer = false
+    sharethis = false
+    network = "facebook"
+[[params.social]]
+	title = "twitter"
+	url = "https://twitter.com/nickname"
+    icon = "fab fa-twitter-square"
+    footer = false
+    sharethis = false
+    network = "twitter"
+[[params.social]]
+	title = "instagram"
+	url = "https://www.instagram.com/nickname"
+    icon = "fab fa-instagram"
+    footer = false
+    sharethis = false
+    network = ""
+[[params.social]]
+	title = "google+"
+	url = "https://plus.google.com/+nickname"
+    icon = "fab fa-google-plus-square"
+    footer = false
+    sharethis = false
+    network = "googleplus"
+[[params.social]]
+	title = "linkedin"
+	url = "https://www.linkedin.com/in/nickname"
+    icon = "fab fa-linkedin"
+    footer = false
+    sharethis = false
+    network = "linkedin"
+[[params.social]]
+	title = "tumblr"
+	url = "https://nickname.tumblr.com"
+    icon = "fab fa-tumblr-square"
+    footer = false
+    sharethis = false
+    network = "tumblr"
+[[params.social]]
+	title = "github"
+	url = "https://github.com/nickname"
+    icon = "fab fa-github"
+    footer = false
+    sharethis = false
+    network = ""
+[[params.social]]
+	title = "email"
+	url = "mailto:some.email@somewhere.com"
+    icon = "fas fa-envelope-square"
+    footer = false
+    sharethis = true
+    network = "email"
