@@ -1,6 +1,6 @@
 +++
 date = "2021-06-14T12:00:00-00:00"
-title = "git learning push"
+title = "Git Learning Push"
 
 +++
 
@@ -24,4 +24,8 @@ After origin and main has been initialized:
 4. git status
 5. git commit -m "commit comment"
 6. git push -u origin main
+```
+View local host website
+```
+1. hugo server -D
 ```

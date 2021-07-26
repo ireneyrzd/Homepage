@@ -12,7 +12,7 @@ Sophomore | 9th Grade GPA: 4, Weighted GPA: 4.75
 
 ### Project Highlights
 Asia Hate Crime Heat Map 								March 2021
-Collect crime rate data in CA counties, and predict the possibility of crime in given areas with Python and google CoLab.
+Collect crime rate data in CA counties, and predict the possibility of crime in given areas with Python and Google Colab.
 
 ### Skills
 Languages: Java, JavaScript, Python
