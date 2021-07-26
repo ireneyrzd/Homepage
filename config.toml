@@ -11,11 +11,11 @@ theme = "hugo-initio"
     phone = "..."
     address = "..."
     year = 2021
-    avatar = "images/avatar.jpg"
+    avatar = "/images/avatar.jpg"
     avatarclass = "circle"
     background = ""
     banner = ""
-    favicon = "images/gt_favicon.png"
+    favicon = "/images/gt_favicon.png"
     DateForm = "June 10, 2021"
     author = "Irene Wang"
 
