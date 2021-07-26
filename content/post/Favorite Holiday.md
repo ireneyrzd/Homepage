@@ -4,7 +4,8 @@ title = "Favorite Holiday"
 
 +++
 
-My favorite holl
+My favorite holiday
+
 Halloween
 - U can reflect ur fav character
 - With friendsm, school spirit
