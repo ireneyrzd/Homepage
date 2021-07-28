@@ -1,6 +1,7 @@
 +++
 date = "2021-06-25T12:00:00-00:00"
 title = "Git Learning(2) - Hugo and Rebase"
+tags = [ "Git Learning" ]
 
 +++
 ## What is Hugo?
@@ -14,6 +15,12 @@ First time: make sure a folder has been created to store the generated HTML code
 To update to the folder:
 ```
 hugo -d ../ireneyrzd.github.io/
+cd ../ireneyrzd.github.io/
+
+git add .
+git status
+git commit -m "commit comment"
+git push
 ```
 
 ** How to download template: https://gohugo.io/getting-started/quick-start/

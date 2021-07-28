@@ -1,12 +1,12 @@
 +++
 date = "2021-06-14T12:00:00-00:00"
 title = "Git Learning(1) - Push"
-
+tags = [ "Git Learning" ]
 +++
 ## What is Hugo?
 
 
-## To push changes of website from .md to github through git
+#### To push changes of website from .md to github through git
 First time:
 ```
 1. git init
@@ -27,7 +27,7 @@ After origin and main has been initialized:
 5. git commit -m "commit comment"
 6. git push -u
 ```
-## View local host website
+#### View local host website
 ```
 1. hugo server -D
 ```

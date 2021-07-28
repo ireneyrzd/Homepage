@@ -6,22 +6,22 @@ theme = "hugo-initio"
 
 [params]
     name = "Irene Wang"
-    description = "A mystery person"
+    description = "A highschooler eager about the future"
     email = "yiranirenewang@gmail.com"
     phone = "..."
     address = "..."
     year = 2021
     avatar = "/images/avatar.jpg"
     avatarclass = "circle"
-    background = ""
-    banner = ""
-    favicon = "/images/gt_favicon.png"
+    background = "/images/bg_head.jpg"
+    banner = "/images/Irene_banner.jpg"
+    favicon = "/images/Irene_favicon.png"
     DateForm = "June 10, 2021"
     author = "Irene Wang"
 
-    showSubheader = false
+    showSubheader = true
     showServices = false
-    showRecentWorks = false
+    showRecentWorks = true
     showDownloads = false
     showClients = false
 
@@ -38,6 +38,10 @@ theme = "hugo-initio"
     name = "blog"
     url = "/post/"
     weight = 5
+[[menu.main]]
+    name = "tags"
+    url = "/tags/"
+    weight = 2
 
 [params.disqus]
     site = "hugo-initio-site.disqus.com"

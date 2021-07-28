@@ -1,6 +1,7 @@
 +++
 date = "2021-07-25T12:00:00-00:00"
 title = "Music and Machine Learning Brainstorm"
+tags = [ "Machine Learning Brainstorms" ]
 
 +++
 
