@@ -1,7 +1,9 @@
 +++
-date = "2021-06-14T12:00:00-00:00"
-title = "Git Learning(1) - Push"
-tags = [ "Git Learning" ]
+date = "2021-07-14T12:00:00-00:00"
+title = "Linux Learning(1) - Git Push"
+tags = [ "Linux Learning" ]
+comments = true
+share = true
 +++
 ## What is Hugo?
 

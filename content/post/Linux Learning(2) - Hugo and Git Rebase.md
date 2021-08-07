@@ -1,8 +1,9 @@
 +++
-date = "2021-06-25T12:00:00-00:00"
-title = "Git Learning(2) - Hugo and Rebase"
-tags = [ "Git Learning" ]
-
+date = "2021-07-25T12:00:00-00:00"
+title = "Linux Learning(2) - Hugo and Git Rebase"
+tags = [ "Linux Learning" ]
+comments = true
+share = true
 +++
 ## What is Hugo?
 Hugo provides sample website templates, which include intructions in simple English language in how to fill in different sections. Once that is complete, Hugo will automatically generate the html code for the website using the template. The website can then be published using a url domain such as one from github.

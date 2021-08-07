@@ -2,7 +2,8 @@
 date = "2021-07-26T12:00:00-00:00"
 title = "MusicNet Brainstorm and Analysis"
 tags = [ "Machine Learning Brainstorms" ]
-
+comments = true
+share = true
 +++
 
 If you look at my other post (SRA Experience Recap 7/26), the current music generation models can be  improved to become more customizable if a dataset with specific labels are created. Then, when a user prompts for a certain characteristic as input, only songs with corresponding tags would be fed into the training model, and the output result would follow the desire of the user.
@@ -16,7 +17,8 @@ If you look at my other post (SRA Experience Recap 7/26), the current music gene
 * Mood that it evokes
 
 I looked at three papers that explore how  music can evoke senses of emotion in audiences from different backgrounds.
-### "Ooh là là! Music evokes at least 13 emotions. Scientists have mapped them"
+#### "Ooh là là! Music evokes at least 13 emotions. Scientists have mapped them"
+by Anwar, Yasmin (2020)
 https://news.berkeley.edu/2020/01/06/music-evokes-13-emotions/
 
 In the study, the Berkeley doctoral students found that the emotions evoked by music can be categorized into 13 feelings: "Amusement, joy, eroticism, beauty, relaxation, sadness, dreaminess, triumph, anxiety, scariness, annoyance, defiance, and feeling pumped up. "
@@ -25,9 +27,27 @@ In addition, the study found that while people from different regions experience
 
 Finally, the study proves that the emotion evoked by the music is not influenced whether the person associates it with a certain movie, as a similar research conducted using Chinese traditional music reflects similar results.
 
+#### “What music makes us feel: At least 13 dimensions organize subjective experiences associated with music across different cultures”
+by Cowen et al. (2020)
+https://www.pnas.org/content/117/4/1924
 
+In the study, researchers from UC Berkeley investigated how differently people from various cultures reported on specific feelings and broad affective features in response to listening music. The research is done with 1591 Americans and 1258 Chinese each listening to about 2168 music samples and differs from previous studies by analyzing a significantly larger number of emotions, as well as the impact that cultures have on music perceptions
 
-### "Music and emotion"
+The result is that 13 distinctive types of subjective experience “amusing, annoying, anxious/tense, beautiful, calm/relaxing/serene, dreamy, energizing/pump-up, erotic/desirous, indignant/defiant, joyful/cheerful, sad/depressing, scary/fearful, and triumphant/heroic” can be identified from listening to music. In the observation, specific feelings were more preserved between the 2 cultures than broad, which is in contrast from previous beliefs that they both correlate. In addition, separate emotion theories are also rejected as feelings are found to occupy continuous gradients.
+https://www.ocf.berkeley.edu/~acowen/music.html# shows a visual of how the music is categorized into 13 emotions on an interactive map, as well the percentage of emotion reported with each sample of music.
+Due to the complexity involved in music, the researchers utilized semantic space and a logical approach that structures subjective experiences with 3 properties: conceptualization, dimensionality, and distribution. Conceptualization is the nature of the concepts that most precisely characterize our feelings. It is concerned with affective science, or scientific study of emotion and affects (feeling, mood, decision-making, etc.) as well as underlying physiology and neuroscience of emotions
+* particular feelings or general affective features like valence from music
+*   !! answering this can also give insight into how the brain represents feelings, how infants can recognize feelings, and how universal across cultures subjective experiences can be !!
+*     dimensionality
+*       range of feelings that people experience
+*         how many distinct feelings
+*           how much does culture impact feelings associated w music and which are consistent among cultural groups (in this case i believe they only checked us and china)
+- distribution
+-   how are the feelings that music evokes distributed
+-     individual or able to be blended?
+-       boundaries between specific feelings
+
+#### "Music and emotion"
 https://en.wikipedia.org/wiki/Music_and_emotion
 
 The field of music and emotion is a branch of music psychology that studies the relationship of music and emotion in the human brain. The end target is to discover how music therapy can be efficiently applied to people from a variety of backgrounds.

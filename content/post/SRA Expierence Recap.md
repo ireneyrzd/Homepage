@@ -2,7 +2,8 @@
 date = "2021-07-26T12:00:00-00:00"
 title = "SRA Experience Recap"
 tags = [ "Machine Learning Brainstorms" ]
-
+comments = true
+share = true
 +++
 
 In my 2021 summer going from sophomore to junior year, I was honored to be selected to be part of a highly selective summer research program: Summer Research Academies at UC Santa Barbara. The program has an overall acceptance rate of 18.9% and I was one of five girls in a group of 26 students enrolled in Track 9 Machine Intelligence: An Introduction to Optimization and Machine learning.
@@ -16,7 +17,7 @@ Google Magenta project utilizes the Transformer model as the neural network, whe
 
 The Magenta Music Transformer focus on three categories: unconditional, continuation, and accompagnement. We decided to model our project unconditionally, as it is the only one that does not require a user input.
 
-More can be read in my previous post (Music Generation Brainstorm 6/25)
+More can be read in my previous post (Music Generation Brainstorm 7/25)
 
 #### My Project - *Musics Generation using Machine*
 ##### Overview

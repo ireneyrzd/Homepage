@@ -1,8 +1,9 @@
 +++
-date = "2021-06-15T12:00:00-00:00"
+date = "2021-07-15T12:00:00-00:00"
 title = "Hidden Figure Reflection"
 tags = [ "Personal Reflections" ]
-
+comments = true
+share = true
 +++
 
 

@@ -44,7 +44,7 @@ theme = "hugo-initio"
     weight = 2
 
 [params.disqus]
-    site = "hugo-initio-site.disqus.com"
+    site = "https-ireneyrzd-github-io.disqus.com"
 
 [params.sharethis]
     property = "123456789012345678901234"

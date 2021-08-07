@@ -2,7 +2,8 @@
 date = "2021-07-25T12:00:00-00:00"
 title = "Music and Machine Learning Brainstorm"
 tags = [ "Machine Learning Brainstorms" ]
-
+comments = true
+share = true
 +++
 
 My favorite hobbies revolve around music as I enjoy playing the piano, the flute, and dancing. Additionally, I enjoy building both tangible and virtual projects. In the future, I would like to major in Computer Science, and currently am most appealed in the field of machine learning. Thus, I would like to combine my interests to create a machine learning project that would benefit music education.
