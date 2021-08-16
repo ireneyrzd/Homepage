@@ -43,8 +43,8 @@ theme = "hugo-initio"
     url = "/tags/"
     weight = 2
 
-[params.disqus]
-    site = "https-ireneyrzd-github-io.disqus.com"
+#[params.disqus]
+#    site = "https-ireneyrzd-github-io.disqus.com"
 
 [params.sharethis]
     property = "123456789012345678901234"
