@@ -20,7 +20,7 @@ theme = "hugo-initio"
     author = "Irene Wang"
 
     showSubheader = true
-    showServices = false
+    showServices = true
     showRecentWorks = true
     showDownloads = false
     showClients = false
@@ -103,9 +103,16 @@ theme = "hugo-initio"
     sharethis = true
     network = ""
 [[params.social]]
+	title = "youtube"
+	url = "https://www.youtube.com/channel/UCdCthz7zRhdgdfVIIm7wpWA"
+    icon = "fab fa-youtube"
+    footer = true
+    sharethis = true
+    network = ""
+[[params.social]]
 	title = "email"
 	url = "mailto:some.email@somewhere.com"
     icon = "fas fa-envelope-square"
-    footer = false
+    footer = true
     sharethis = true
     network = "email"

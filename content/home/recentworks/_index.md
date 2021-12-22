@@ -2,6 +2,6 @@
 title = "Recent works"
 type = "recentwork"
 file = "data.json"
-weight = 2
+weight = 3
 +++
 
