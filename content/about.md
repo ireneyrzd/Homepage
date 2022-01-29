@@ -21,7 +21,7 @@ Credits Earned: 19.50
 
 ### HONORS & COLLEGE COURSES		
 **Senior Year** 				
- 
+- 
 
 **Junior Year**  	  
 AP Calculus BC   
@@ -63,7 +63,6 @@ Honors English Literature and Composition
 
 **REGIONAL AWARDS**
 - 9th individual at Math League; 2020
-- AMC
 
 ### PIANO COMPETITION AWARDS AND ACTIVITIES  
 **NATIONAL AWARDS**  

@@ -7,3 +7,4 @@ Research Project done with Aspiring Scholars Directed Research Program. Natural 
 <!--more-->
 
 To learn more, view my blog post <https://ireneyrzd.github.io/post/asdrp-predict-next-word/>
+(Coded in python)

@@ -6,4 +6,6 @@ Research project done with Summer Research Academies in UCSB. Predicts the next 
 
 <!--more-->
 
+(Coded in Python and HTML)
+
 To learn more, view my blog post <https://ireneyrzd.github.io/post/sra-expierence-recap/>

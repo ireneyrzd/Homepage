@@ -8,4 +8,6 @@ A platform that collects people's emotional responses after listening to classic
 
 The ultimate aim is to improve the field of music machine learning by providing a dataset for training.
 
+(Coded in Google Apps Script, Java Script, Python, and HTML)
+
 To learn more, view my blog post <http://ireneyrzd.github.io/post/music-dataset-introduction/> or visit my website at <https://musicdataset.github.io/>. 
