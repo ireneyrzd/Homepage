@@ -1,7 +1,7 @@
 +++
 date = "2021-07-15T12:00:00-00:00"
 title = "Hidden Figure Reflection"
-tags = [ "Personal Reflections" ]
+tags = [ "Blogs" ]
 comments = true
 share = true
 +++

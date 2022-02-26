@@ -1,7 +1,7 @@
 +++
 date = "2022-01-03T12:00:00-00:00"
 title = "Goals for 2022"
-tags = [ "Blogs" ]
+tags = [ "Personal Reflections" ]
 comments = true
 share = true
 +++

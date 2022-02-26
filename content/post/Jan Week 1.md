@@ -1,7 +1,7 @@
 +++
 date = "2022-01-04T12:00:00-00:00"
 title = "Januaray 2022 Week 1"
-tags = [ "Blogs" ]
+tags = [ "Personal Reflections" ]
 comments = true
 share = true
 +++
