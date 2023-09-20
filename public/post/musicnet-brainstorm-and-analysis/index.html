@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+  	<meta charset="utf-8">
+  	<meta name="viewport"    content="width=device-width, initial-scale=1.0">
+  	<meta name="description" content="">
+  	<meta name="author"      content="map[]">
+    
+    	<title>Music and Machine Learning Brainstorm</title>
+	<link rel="shortcut icon" href="https://ireneyrzd.github.io/images/Irene_favicon.png">
+
+	
+	<link href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.no-icons.min.css" rel="stylesheet">
+	
+	
+	<script defer src="https://use.fontawesome.com/releases/v5.0.11/js/all.js" integrity="sha384-ImVoB8Er8knetgQakxuBS4G3RSkyD8IZVVQCAnmRJrDwqJFYUE4YOv+DbIofcO9C" crossorigin="anonymous"></script>
+	
+	
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Alice|Open+Sans:400,300,700">
+	
+	
+  
+  <link rel="stylesheet" href="https://ireneyrzd.github.io/css/styles.min.64a6643395c6bf1ec6fff31d6429046b3ad467e58a279ff252dc019edd80a87051cf90b7fe2d589277def72d84602dcbc7115e2e17a94db3a8838336986a0ae3.css" integrity="sha512-ZKZkM5XGvx7G//MdZCkEazrUZ&#43;WKJ5/yUtwBnt2AqHBRz5C3/i1Yknfe9y2EYC3LxxFeLhepTbOog4M2mGoK4w==">
+
+   
+  
+
+  </head>
+  
+  <body class="home">
+
+    
+      <header id="header">
+  <div id="head" class="parallax" data-parallax-speed="2" style="background-image:url('https://ireneyrzd.github.io/images/Irene_banner.jpg');">
+    <h1 id="logo" class="text-center">
+      <img class='img-circle' src="https://ireneyrzd.github.io/images/avatar.jpg" alt="">
+      <span class="title">Irene Wang</span>
+      <span class="tagline">A highschooler eager about the future<br>
+        <a href="mailto:yiranirenewang@gmail.com">yiranirenewang@gmail.com</a>
+      </span>
+   </h1>
+</div>
+
+<nav class="navbar navbar-default navbar-sticky">
+    <div class="container-fluid">
+
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="true">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+        </div>
+
+        <div class="navbar-collapse collapse" id="bs-example-navbar-collapse-1">
+
+            <ul class="nav navbar-nav">
+            
+                
+                <li>
+                    <a href="/">home</a>
+                </li>
+                
+            
+                
+                <li>
+                    <a href="/tags/">tags</a>
+                </li>
+                
+            
+                
+                <li>
+                    <a href="/post/">blog</a>
+                </li>
+                
+            
+                
+                <li>
+                    <a href="/about1/">About ME 1.0</a>
+                </li>
+                
+            
+                
+                <li>
+                    <a href="/about2/">About ME 2.0</a>
+                </li>
+                
+            
+            </ul>
+
+        </div> 
+        
+    </div>
+</nav>
+
+</header>
+    
+ 
+    
+<main id="main">
+
+	<div class="container">
+
+		<div class="row topspace">
+			<div class="col-sm-8 col-sm-offset-2">
+
+ 				<article class="post">
+					<header class="entry-header">
+ 						<div class="entry-meta">
+               <span class="posted-on">
+                  <time class="entry-date published" datetime="June 70, 24247">July 24, 2021</time>
+               </span>
+ 						</div>
+ 						<h1 class="entry-title"><a href="https://ireneyrzd.github.io/post/musicnet-brainstorm-and-analysis/" rel="bookmark">Music and Machine Learning Brainstorm</a></h1>
+					</header>
+					<div class="entry-content">
+						<p>If you look at my other post (SRA Experience Recap 7/26), the current music generation models can be improved to become more customizable if a dataset with specific labels is created. Then, when a user prompts for a certain characteristic as input, only songs with corresponding tags would be fed into the training model, and the output result would follow the desire of the user.</p>
+<h5 id="possible-labels-to-the-musicnet-datasets">Possible Labels to the MusicNet datasets</h5>
+<ul>
+<li>Composer</li>
+<li>Musical period (eg. Baroque, Classical, Romantic, Contemporary)</li>
+<li>Genre/style (eg. dance, sonata, nocturne, jazz, blues, pop)</li>
+<li>Speed</li>
+<li>Difficulty (ranked based on standards of different exams, eg. Certificate of Merit, Associated Board of the Royal Schools of Music)</li>
+<li>Mood that it evokes</li>
+</ul>
+<p>I looked at three papers that explore how music can evoke senses of emotion in audiences from different backgrounds.</p>
+<h4 id="ooh-là-là-music-evokes-at-least-13-emotions-scientists-have-mapped-them">&ldquo;Ooh là là! Music evokes at least 13 emotions. Scientists have mapped them&rdquo;</h4>
+<p>by Anwar, Yasmin (2020)
+<a href="https://news.berkeley.edu/2020/01/06/music-evokes-13-emotions/">https://news.berkeley.edu/2020/01/06/music-evokes-13-emotions/</a></p>
+<p>In the study, the Berkeley doctoral students found that the emotions evoked by music can be categorized into 13 feelings: &ldquo;Amusement, joy, eroticism, beauty, relaxation, sadness, dreaminess, triumph, anxiety, scariness, annoyance, defiance, and feeling pumped up. &quot;</p>
+<p>In addition, the study found that while people from different regions experience similar emotions while listening to the same music, they classified these emotions differently. However, the Chinese and U.S. study participants differed in opinion on whether the emotions, for example, &ldquo;fear&rdquo;, evokes a positive or negative feeling.</p>
+<p>Finally, the study proves that the emotion evoked by the music is not influenced whether the person associates it with a certain movie, as similar research conducted using Chinese traditional music reflects similar results.</p>
+<h4 id="what-music-makes-us-feel-at-least-13-dimensions-organize-subjective-experiences-associated-with-music-across-different-cultures">“What music makes us feel: At least 13 dimensions organize subjective experiences associated with music across different cultures”</h4>
+<p>by Cowen et al. (2020)
+<a href="https://www.pnas.org/content/117/4/1924">https://www.pnas.org/content/117/4/1924</a></p>
+<p>In the study, researchers from UC Berkeley investigated how different people from various cultures reported on specific feelings and broad affective features in response to listening to music. The research is done with 1591 Americans and 1258 Chinese each listening to about 2168 music samples and differs from previous studies by analyzing a significantly larger number of emotions, as well as the impact that cultures have on music perceptions</p>
+<p>The result is that 13 distinctive types of subjective experience “amusing, annoying, anxious/tense, beautiful, calm/relaxing/serene, dreamy, energizing/pump-up, erotic/desirous, indignant/defiant, joyful/cheerful, sad/depressing, scary/fearful, and triumphant/heroic” can be identified from listening to music. In the observation, specific feelings were more preserved between the 2 cultures than broad, which is in contrast to previous beliefs that they both correlate. In addition, separate emotion theories are also rejected as feelings are found to occupy continuous gradients.
+<a href="https://www.ocf.berkeley.edu/~acowen/music.html#">https://www.ocf.berkeley.edu/~acowen/music.html#</a> shows a visual of how the music is categorized into 13 emotions on an interactive map, as well the percentage of emotion reported with each sample of the music.
+Due to the complexity involved in music, the researchers utilized semantic space and a logical approach that structures subjective experiences with 3 properties: conceptualization, dimensionality, and distribution. Conceptualization is the nature of the concepts that most precisely characterize our feelings. It is concerned with affective science, or scientific study of emotion and affects (feeling, mood, decision-making, etc.) as well as underlying physiology and neuroscience of emotions</p>
+<ul>
+<li>particular feelings or general effective features like valence from music</li>
+<li>answering this can also give insight into how the brain represents feelings, how infants can recognize feelings, and how universal across cultures subjective experiences can be</li>
+<li>dimensionality
+<ul>
+<li>range of feelings that people experience</li>
+<li>how many distinct feelings</li>
+<li>how much does culture impact feelings associated with music and which are consistent among cultural groups (this particular study focused on participants from China and the US)</li>
+</ul>
+</li>
+</ul>
+<ul>
+<li>distribution
+<ul>
+<li>how are the feelings that music evokes distributed</li>
+<li>are the feelings distinct or can they to be blended?</li>
+<li>boundaries between specific feelings</li>
+</ul>
+</li>
+</ul>
+<h4 id="music-and-emotion">&ldquo;Music and emotion&rdquo;</h4>
+<p><a href="https://en.wikipedia.org/wiki/Music_and_emotion">https://en.wikipedia.org/wiki/Music_and_emotion</a></p>
+<p>The field of music and emotion is a branch of music psychology that studies the relationship between music and emotion in the human brain. The end target is to discover how music therapy can be efficiently applied to people from a variety of backgrounds.</p>
+<p>The subject seeks how the influence of music changes with the age of the audience. How different aspects of music, such as tempo, mode, loudness, melody, and rhythm, can evoke different reactions. The Juslin &amp; Västfjäll&rsquo;s BRECVEM model found that music can elicit emotion through seven ways: brain stem reflex, rhythmic entrainment, evaluative conditioning, emotional contagion, episodic memory, and musical expectancy.</p>
+<p>Researchers are able to study the changes in emotion through self-reports or outsider&rsquo;s observation of listeners&rsquo; physiological responses and expressive behavior both conveyed and elicited.</p>
+<p>Finally, a better understanding of the relationship between music and relationships can help create more effective therapeutic tools using music. Music therapy already shows promising outputs in treating patients with autism, the hope is that in the future, it would help more people, such as those with other mental illnesses, or others trying to break alcohol or drug addiction.</p>
+<p>With a better understanding of how music can be used as therapeutic tools and classification of what type of music is the most effective, the hope is that we can then utilize computer-generated music to create a variety of playlists with specific attributes targeting a group of people with a specific therapeutic need.</p>
+
+					</div>
+				</article>
+
+			</div>
+		</div> 
+
+		<div class="row">
+			<div class="col-sm-8 col-sm-offset-2">
+
+				<div id="share">
+					
+							<div class="row">
+    <div class="col-xs-12 col-sm-offset-1 col-sm-10 col-md-offset-2 col-md-8">
+        
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+                    <div data-network="" data-title=" >> " class="st-custom-button"> <i class="fab fa-github fa-2x"></i> </div>
+                
+            
+                
+                    <div data-network="" data-title=" >> " class="st-custom-button"> <i class="fab fa-youtube fa-2x"></i> </div>
+                
+            
+                
+                    <div data-network="email" data-title=" >> " class="st-custom-button"> <i class="fas fa-envelope-square fa-2x"></i> </div>
+                
+            
+            <div data-network="sharethis" data-title="Music and Machine Learning Brainstorm >> " class="st-custom-button"> <i class="fas fa-share-alt-square fa-2x"></i> </div>
+        
+    </div>
+</div> 
+
+					
+				</div>
+			</div>
+		</div> 
+		<div class="clearfix"></div>
+
+		<div class="row">
+			<div class="col-sm-8 col-sm-offset-2">
+
+				<div id="comments">
+					
+							<div id="disqus_thread"></div>
+<script>
+
+
+
+
+
+(function() { 
+var d = document, s = d.createElement('script');
+s.src = 'https:///embed.js';
+s.setAttribute('data-timestamp', +new Date());
+(d.head || d.body).appendChild(s);
+})();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+
+					
+				</div>
+			</div>
+		</div> 
+		<div class="clearfix"></div>
+
+	</div>	
+
+</main>
+
+    
+    
+      <footer id="footer">
+	<div class="container">
+		<div class="row">
+			
+			<div class="col-md-3 widget">
+				<h3 class="widget-title">Contact</h3>
+				<div class="widget-body">
+					<p>...<br>
+					<a href="mailto:yiranirenewang@gmail.com">yiranirenewang@gmail.com</a><br>
+					<br>
+					...
+					</p>
+				</div>
+			</div>
+			
+
+			
+			<div class="col-md-3 widget">
+				<h3 class="widget-title">Follow me</h3>
+				<div class="widget-body">
+					<p class="follow-me-icons">
+            
+							
+            
+							
+            
+							
+            
+							
+            
+							
+            
+							
+            
+							
+								<a href="https://github.com/ireneyrzd" target="_blank"><i class="fab fa-github fa-1x"></i></a>
+							
+            
+							
+								<a href="https://www.youtube.com/channel/UCdCthz7zRhdgdfVIIm7wpWA" target="_blank"><i class="fab fa-youtube fa-1x"></i></a>
+							
+            
+							
+								<a href="mailto:some.email@somewhere.com" target="_blank"><i class="fas fa-envelope-square fa-1x"></i></a>
+							
+            
+					</p>
+				</div>
+			</div>
+			
+
+			
+
+			
+
+		</div> 
+	</div>
+</footer>
+
+<footer id="underfooter">
+	<div class="container">
+		<div class="row">
+
+			<div class="col-md-6 widget">
+				<div class="widget-body">
+					<p>...</p>
+				</div>
+			</div>
+
+			<div class="col-md-6 widget">
+				<div class="widget-body">
+					<p class="text-right">
+						Copyright &copy; 2021, Irene Wang<br>
+						Design: <a href="http://www.gettemplate.com" rel="designer">Initio by GetTemplate</a> - 
+						Powered by: <a href="https://gohugo.io/" rel="poweredby">Hugo</a>
+					</p>
+				</div>
+			</div>
+
+		</div> 
+	</div>
+</footer>
+
+
+
+
+<script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+<script src="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
+
+
+
+
+<script src="https://ireneyrzd.github.io/js/bundle.min.b6d456c2e5af821563b5e8f84cfa91c4930ee91a6952969e004f6d83be4dd9849a65c97ed650b6d2c74e9d6d2c17990733e63fa89d40d3436c44e3a252c5a296.js" integrity="sha512-ttRWwuWvghVjtej4TPqRxJMO6RppUpaeAE9tg75N2YSaZcl&#43;1lC20sdOnW0sF5kHM&#43;Y/qJ1A00NsROOiUsWilg=="></script>
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'GA-000000000-0', 'auto');
+  ga('send', 'pageview');
+</script>
+
+</body>
+</html>
+
+    
+  </body>
+  
+</html>

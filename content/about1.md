@@ -1,6 +1,6 @@
 +++
 menu = "main"
-title = "About ME 1.0"
+title = "About ME"
 type = "about"
 weight = 10
 +++
@@ -11,20 +11,29 @@ weight = 10
 Energetic and detailed-driven student with strong passion for computer science and solid background in math. Fast learner and hard worker with a strong sense of team commitment.
 
 ### EDUCATION 
+#### University of Texas at Austin| (2023 - 2027 expected)
+
+B.S. in Turing Scholars Computer Science Honors Program
+
+Honors Data Structure\
+Honors Discrete Math Computer Science\
+Probability I\
+Differential Equation with Linear Algebra 
+
 **Basis Independent Silicon Valley | (2019 - present) Junior**
 
 1290 Parkmoor Ave, San Jose, CA 95126  
-College Board School Code: 054776
 
-Cumulative GPA: 4.00  
-Weighted GPA: 4.69  
-Credits Earned: 19.50  
+Weighted GPA: 4.7  \
+SAT score: 1570
 
-### HONORS & COLLEGE COURSES
+### HIGH SCHOOL HONORS & COLLEGE COURSES
 
-**Senior Year** 
-
-... 
+**Senior Year** \
+Capstone: Advanced Java Topics \
+Capstone: Existentialism and the Absurd \
+Linear Algebra \
+Multivariable Calculus
 
 **Junior Year**  	  
 AP Calculus BC   

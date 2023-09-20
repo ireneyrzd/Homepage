@@ -6,6 +6,7 @@ comments = true
 share = true
 +++
 
+
 First day of school today, it was really nice seeing friends and teachers today. Also this week is Student Appriciation Week and I got a cool BISV canvas bag. It was really nice seeing everyone walk around campus with their bag
 
 Jan 4, 2022

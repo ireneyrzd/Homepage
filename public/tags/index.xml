@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on Irene&#39;s Blog</title>
+    <link>https://ireneyrzd.github.io/tags/</link>
+    <description>Recent content in Tags on Irene&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Sat, 09 Apr 2022 12:00:00 +0000</lastBuildDate><atom:link href="https://ireneyrzd.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Personal Reflections</title>
+      <link>https://ireneyrzd.github.io/tags/personal-reflections/</link>
+      <pubDate>Sat, 09 Apr 2022 12:00:00 +0000</pubDate>
+      
+      <guid>https://ireneyrzd.github.io/tags/personal-reflections/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Math</title>
+      <link>https://ireneyrzd.github.io/tags/math/</link>
+      <pubDate>Wed, 05 Jan 2022 12:00:00 +0000</pubDate>
+      
+      <guid>https://ireneyrzd.github.io/tags/math/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Machine Learning Brainstorms</title>
+      <link>https://ireneyrzd.github.io/tags/machine-learning-brainstorms/</link>
+      <pubDate>Thu, 23 Dec 2021 12:00:00 +0000</pubDate>
+      
+      <guid>https://ireneyrzd.github.io/tags/machine-learning-brainstorms/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Music Dataset</title>
+      <link>https://ireneyrzd.github.io/tags/music-dataset/</link>
+      <pubDate>Sun, 15 Aug 2021 12:00:00 +0000</pubDate>
+      
+      <guid>https://ireneyrzd.github.io/tags/music-dataset/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Linux Learning</title>
+      <link>https://ireneyrzd.github.io/tags/linux-learning/</link>
+      <pubDate>Wed, 04 Aug 2021 12:00:00 +0000</pubDate>
+      
+      <guid>https://ireneyrzd.github.io/tags/linux-learning/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

@@ -6,7 +6,7 @@ theme = "hugo-initio"
 
 [params]
     name = "Irene Wang"
-    description = "A highschooler eager about the future"
+    description = "A girl eager about the future"
     email = "yiranirenewang@gmail.com"
     phone = "..."
     address = "..."
